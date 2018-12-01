@@ -1,0 +1,40 @@
+{
+  "career":{
+    "info":"To work in an environment where improve my skills and also my knowledge about techniques"
+  },
+  "education":[
+    {
+      "degree":"B.tech(IT)",
+      "Institution":"Vignan",
+      "YOP":"2020",
+      "Percentage":"85"
+    },
+    {
+      "degree":"Intermediate",
+      "Institution":"Sri chaitanya",
+      "YOP":"2016",
+      "Percentage":"90"
+    },
+    {
+      "degree":"S.S.C",
+      "Institution":"Basara concept school",
+      "YOP":"2014",
+      "Percentage":"9.2"
+    }
+  ],
+  "skills":[
+    {
+      "title":"platforms",
+      "content":"windows,Linux"
+    },
+    {
+      "title":"Programming Languages",
+      "content":"C,Java,Python,HTML,CSS,JS"
+    },
+    {
+      "title":"Database",
+      "content":"mysql,mongodp,plsql"
+    }
+  ],
+  "languages":"Telugu,English,Hindi"
+}

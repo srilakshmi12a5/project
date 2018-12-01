@@ -1,0 +1,137 @@
+body{
+  background: #33FFF0    ;
+}
+.parent{
+  width: 100%;
+  display: flex;
+  background-color: #FF3380
+  /*justify-content: center;*/
+}
+table>tr>td{
+  padding:1%;
+}
+a{
+  word-wrap: break-word;
+}
+.child1{
+  background-color: #55FF33  ;
+  width: 40%;
+  text-align: center;
+  margin: 1%;
+
+}
+.child2{
+  background-color: #CE33FF;
+  width: 60%;
+  matgin:1%;
+  padding:1%;
+}
+img{
+  width: 60%;
+  height: 35%;
+  border-radius: 25px;
+  border: 2px solid #33BEFF;
+}
+h2{
+  color: #33BEFF;
+}
+h1{
+  color:#33FF52;
+}
+p{
+  font-size: 20px;
+}
+@media only screen  and (max-width:480px) {
+  *{
+    font-size: 20px;
+  }
+  .parent{
+    width: 100%;
+    background-color: #33BEFF;
+    display: flex;
+    flex-direction: column;
+  }
+  .child1{
+    background-color: #33FF52  ;
+    text-align: center;
+    width: 90%;
+    margin: 2% auto;
+    padding: 2%;
+    border-radius: 20px;
+    /*height: 20%*/
+  }
+  .child2{
+    background-color: #33BEFF;
+    width: 90%;
+    margin: 2% auto;
+    padding: 2%;
+    border-radius: 20px;
+  }
+  img{
+    width: 60%;
+    height: 35%;
+    border-radius: 25px;
+    border: 2px solid  #FF3371;
+  }
+
+  h2{
+    color: #FF3371 ;
+  }
+  h1{
+    color: #33BEFF;
+  }
+
+  .table-responsive{
+    overflow-x:scroll;
+    width: 90%;
+    margin: 1% auto;
+  }
+}
+@@media only screen and (min-width:481px) and (max-width:769px) {
+  *{
+    font-size: 20px;
+  }
+  .parent{
+    width: 100%;
+    display: flex;
+    background-color: #33BEFF;
+    flex-direction: column;
+    /*justify-content: center;*/
+  }
+  .child1{
+    background-color: #FF3371  ;
+    text-align: center;
+    width: 90%;
+    margin: 2% auto;
+    padding: 2%;
+    border-radius: 20px;
+    /*height: 20%*/
+  }
+  .child2{
+    background-color: #7433FF;
+    width: 90%;
+    margin: 2% auto;
+    padding: 2%;
+    border-radius: 20px;
+  }
+  img{
+    width: 60%;
+    height: 35%;
+    border-radius: 25px;
+    border: 2px solid #33BEFF;
+  }
+
+  h2{
+    color: #00FF00;
+  }
+  h1{
+    color: #00FF00;
+  }
+  .table-responsive{
+    overflow-x:scroll;
+    width: 90%;
+    margin: 1%
+  }
+
+
+}
